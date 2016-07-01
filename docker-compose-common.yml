@@ -1,0 +1,16 @@
+app:
+  build: ./docker/core/
+  volumes:
+    - ./app:/app
+  expose:
+    - "3000"
+
+# mongodb:
+#   image: mongo:3.1.5
+#   expose:
+#     - "27017"
+#
+# elasticsearch:
+#   image: elasticsearch:2.1.1
+#   expose:
+#     - "9300"

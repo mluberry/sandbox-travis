@@ -1,0 +1,25 @@
+app:
+  extends:
+    file: docker-compose-common.yml
+    service: app
+  # restart: always
+  # links:
+  #   - mongodb
+  #   - elasticsearch
+  ports:
+    - "3000:3000"
+  entrypoint: node ./bin/www
+
+# mongodb:
+#   extends:
+#     file: docker-compose-common.yml
+#     service: mongodb
+#   ports:
+#     - "27017:27017"
+#
+# elasticsearch:
+#   extends:
+#     file: docker-compose-common.yml
+#     service: elasticsearch
+#   ports:
+#     - "9300:9300"
