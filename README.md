@@ -1,5 +1,7 @@
 # Travis Sandbox project
 
+[![Build Status](https://travis-ci.org/mluberry/sandbox-travis.svg?branch=master)](https://travis-ci.org/mluberry/sandbox-travis)
+
 ## Docker
 
 ### Install
