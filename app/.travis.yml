@@ -6,4 +6,4 @@ node_js:
   - "5"
 
 env:
-  - NODE_ENV=TEST
+  - NODE_ENV=development
